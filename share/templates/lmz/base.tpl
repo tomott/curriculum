@@ -271,9 +271,6 @@
     <!-- ChartJS 1.0.1 -->
     <!--script src="{$media_url}templates/AdminLTE-2.3.0/plugins/chartjs/Chart.min.js"></script-->
     
-    <!-- curriculum settings (sidebar) -->
-    <script src="{$media_url}scripts/curriculum.js"></script>
-    
     <!-- jquery.nyroModal -->
     <script src="{$media_url}jquery.nyroModal/js/jquery.nyroModal.custom.js"></script> 
     
