@@ -12,14 +12,14 @@
                         {if  $cur_menu->id eq $cur_menu->base_curriculum_id || $cur_menu->base_curriculum_id eq null}
                         <li {if isset($page_curriculum )}{if ($page_curriculum eq $cur_menu->id) && ($page_group eq $cur_menu->group_id)} class="active"{/if}{/if}>
                             <a href="index.php?action=view&curriculum_id={$cur_menu->id}&group={$cur_menu->group_id}">
-                                <i class="fa fa-dashboard"></i><span>{$cur_menu->curriculum}</span><small class="label pull-right bg-green">{$cur_menu->groups}</small>
+                                <i class="fa fa-asterisk"></i><span>{$cur_menu->curriculum}</span><small class="label pull-right bg-green">{$cur_menu->groups}</small>
                             </a>
                         </li>
                         {/if}
                     {/if}
                 {/foreach}
             {else}<li><a href="">
-                                <i class="fa fa-dashboard"></i><span>Sie sind in keinen Lehrplan <br>eingeschrieben</span>
+                                <i class="fa fa-asterisk"></i><span>Sie sind in keinen Lehrplan <br>eingeschrieben</span>
                       </a></li>
             {/if}   
             
@@ -29,7 +29,7 @@
                 {if checkCapabilities('menu:readObjectives', $my_role_id, false)}
                 <li class="treeview {if $page_action eq 'objectives'}active{/if}">
                     <a href="index.php?action=objectives&reset=true">
-                        <i class="fa fa-edit"></i> <span>Lernstand eingeben</span>
+                        <i class="fa fa-edit"></i> <span>Feedback</span>
                     </a>
                 </li>
                 {/if}
@@ -44,7 +44,7 @@
                 {if checkCapabilities('menu:readCurriculum', $my_role_id, false)}
                 <li class="treeview {if $page_action eq 'curriculum'}active{/if}">
                     <a href="index.php?action=curriculum&reset=true">
-                        <i class="fa fa-th"></i> <span>Lehrpläne</span>
+                        <i class="fa fa-th"></i> <span>Curricula</span>
                     </a>
                 </li>                  
                 {/if}
