@@ -79,8 +79,8 @@
                   <!-- Add the bg color to the header using any of the bg-* classes -->
                     <div class="widget-user-header bg-aqua-active" style="background: url('{$access_file}{$ins->file_id|resolve_file_id:"l"}') center right;background-size: cover; background-repeat: no-repeat;">
                   
-                    <h3 class="widget-user-username" style="text-shadow: 1px 1px #ff0000;">{$ins->institution}</h3>
-                    <h5 class="widget-user-desc" style="text-shadow: 1px 1px #ff0000;">{$ins->description}</h5>
+                    <h3 class="widget-user-username" style="">{$ins->institution}</h3>
+                    <h5 class="widget-user-desc" style="">{$ins->description}</h5>
                   </div>
                   <div class="box-body">
                     <div class="row">
