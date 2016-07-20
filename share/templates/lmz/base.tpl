@@ -53,8 +53,8 @@
         <!-- Theme style -->
         <link rel="stylesheet" href="{$media_url}templates/AdminLTE-2.3.0/dist/css/AdminLTE.min.css">
         <!-- AdminLTE Skins. Choose a skin from the css/skins folder instead of downloading all of them to reduce the load. -->
-        <link rel="stylesheet" href="{$media_url}templates/AdminLTE-2.3.0/dist/css/skins/_all-skins.min.css">
-        <!--link rel="stylesheet" href="{$media_url}templates/AdminLTE-2.3.0/dist/css/skins/skin-blue-light.min.css"-->
+        <!-- link rel="stylesheet" href="{$media_url}templates/AdminLTE-2.3.0/dist/css/skins/_all-skins.min.css" -->
+        <link rel="stylesheet" href="{$media_url}templates/lmz/skin-lmz.css"-->
         <!-- Bootstrap Color Picker -->
         <link rel="stylesheet" href="{$media_url}templates/AdminLTE-2.3.0/plugins/colorpicker/bootstrap-colorpicker.min.css">
         <!-- Custom styles for this template -->
